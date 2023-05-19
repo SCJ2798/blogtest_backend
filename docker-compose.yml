@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  app:
+    container_name: blogtext-node
+    build:
+      context:  .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGO_DB_URL=mongodb+srv://blogtest_admin:Asd123%40%23@blogtestdb.vldjkvh.mongodb.net/?retryWrites=true&w=majority
+    volumes:
+      - ./:/app
+    
+
