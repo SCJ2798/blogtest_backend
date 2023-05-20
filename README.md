@@ -12,13 +12,13 @@ $ git clone https://github.com/SCJ2798/blogtest_backend.git
 
 $ npm install
 
-05 install nodemon 
+04 install nodemon 
 
 $ npm install --save-dev nodemon
 
-04 - Run the code
+05 - Run the code
 
 $ npm start 
-# or
-# npm run dev
+or
+$ npm run dev
 
